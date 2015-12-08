@@ -2,17 +2,17 @@
 
 describe('Service: PersonDirectoryService', function () {
 
-  // load the service's module
-  beforeEach(module('lab02App'));
+    // load the service's module
+    beforeEach(module('myApp'));
 
-  // instantiate service
-  var PersonDirectoryService;
-  beforeEach(inject(function (_PersonDirectoryService_) {
-    PersonDirectoryService = _PersonDirectoryService_;
-  }));
+    // instantiate service
+    var PersonDirectoryService;
+    beforeEach(inject(function (_PersonDirectoryService_) {
+        PersonDirectoryService = _PersonDirectoryService_;
+    }));
 
-  it('should do something', function () {
-    expect(!!PersonDirectoryService).toBe(true);
-  });
+    it('should do something', function () {
+        expect(!!PersonDirectoryService).toBe(true);
+    });
 
 });
